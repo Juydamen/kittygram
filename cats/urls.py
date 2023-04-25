@@ -10,6 +10,7 @@ router.register(r'cats', CatViewSet)
 router.register('owners', OwnerViewSet)
 router.register(r'mycats', LightCatViewSet)
 
+
 urlpatterns = [
     path('', include(router.urls)),
 ]
